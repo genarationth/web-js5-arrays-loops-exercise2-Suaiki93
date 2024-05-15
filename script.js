@@ -18,7 +18,7 @@ console.log(inOrder);
 // It turns out David was saving a spot for his friend Renata. She shows up and goes behind him in the line. One more person (Elena) shows up and goes to the end of the line.
 // What does the queue look like?
 
-inOrder.splice("David" + 1, "Renata");
+inOrder.splice("David" + 0, 1, "Renata");
 console.log(inOrder);
 inOrder.push("Elena");
 console.log(inOrder);
